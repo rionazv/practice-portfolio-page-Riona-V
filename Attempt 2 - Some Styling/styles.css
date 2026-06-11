@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(172, 166, 185);
-    background-image: url('images/bgtile.png');
+    background-image: url('../images/bgtile.png');
     background-attachment: fixed;
     background-blend-mode: lighten;
 

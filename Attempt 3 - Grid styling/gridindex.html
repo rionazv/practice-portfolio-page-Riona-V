@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="gridstyles.css">
+    <title>Portfolio with Grid</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+
+
+        <section class="image-holder">
+            <img id="logo" src="https://media.tenor.com/xFpNlXxL6oQAAAAj/hi-good-afternoon.gif" alt="gif of bunny waving hello" id="bunnywave"></img>
+        </section>
+
+        
+        <header class="banner">
+            <div style="align-self: flex-end;">
+                <h1>Riona's Portfolio</h1>
+                <p><em>"Have you ever wanted to stop seeing ads?"</em></p>
+            </div>
+            
+        </header>
+
+        <h2 class="sidebar-element">ABOUT ME</h2>
+        
+        <section class="info-element" style="display: flex;">
+            <p> Hello, my name is Riona and this is my first HTML website. <br>
+                I am part of the LaunchCode program. <br>
+                I enjoy learning about new technologies, as well as the fundamentals. <br>
+                I think it makes us all more informed and prepared digital citizens. <br>
+                Thanks for reading!
+            </p>
+
+            <img src="../images/pfp.jpg" alt="A picture of me." style="height: 100px; margin-left: 15px;">
+        </section>
+
+        <h2 class="sidebar-element">SKILLS</h2>
+
+        <section class="info-element">
+            <ul id="skills-list">
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>VS Code</li>
+                <li>IntelliJ</li>
+                <li>MS Office Suite</li>
+                <li>Overleaf</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Blender</li>
+                <li>Maya</li>
+            </ul>
+        </section>
+
+        <h2 class="sidebar-element">CONTACT ME</h2>
+
+        <section class="info-element">
+
+            <form action="/submit">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="textarea" name="textarea" placeholder="Enter your message..." rows="5" cols="30"></textarea>
+
+                <br><br>
+
+                <button class="btn" type="submit">Submit</button>
+
+                <br><br>
+            </form>
+
+        </section>
+
+        <h2 class="sidebar-element">More Info</h2>
+
+        <section class="info-element">
+            <p>...Coming soon! The page will get longer as I add more information.</p>
+        </section>
+
+        <footer class="banner">
+            <nav>
+                <a href="https://github.com/rionazv" target="_blank">Github</a> |
+                <a href="https://example.com" target="_blank">placeholder</a> |
+                <a href="https://example.com" target="_blank">placeholder</a> |
+                <a href="https://example.com" target="_blank">placeholder</a>
+            </nav>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
